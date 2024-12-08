@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блок 1.4: Продвинутая стилизация</title>
+
+    <!--Подключаю стилевые файлы, один для сброса, второй основной стилевой-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!--Шапка боковой панели-->
+    <header class="header">
+        <div class="header-wrapper">
+            <div class="header-wrapper__left">
+                <div class="header-button header-button--burger"></div>
+                <div class="logo">
+                    <img src="/img/logo.svg">
+                </div>
+            </div>
+            <div class="header-wrapper__right">
+                <div class="header-button header-button--search"></div>
+            </div>
+        </div>
+    </header>
+ <!-- Тело бокового меню-->
+    <main class="main">
+        <div class="main-wrapper-top">
+            <ul class="main-menu__list">
+                <li class="main-menu__item main-menu__item--divider">Ремонт техники</li>
+                <li class="main-menu__item ">Услуги и сервиы</li>
+                <li class="main-menu__item">Корпоративным клиентам</li>
+                <li class="main-menu__item">Продавцам техники</li>
+                <li class="main-menu__item">Партнерам</li>
+                <li class="main-menu__item">Производителям</li>
+                <li class="main-menu__item">Наши сервисные центры</li>
+                <li class="main-menu__item">Контакты</li>
+            </ul>
+        </div>
+        <div class="main-wrapper-bottom">
+            <div class="button-wrapper">
+                <div class="main-button main-button--call"></div>
+                <div class="main-button main-button--chat"></div>
+                <div class="main-button main-button--profile"></div>
+            </div>
+            <div class="navigation">
+                <p class="navigation__email">mail@cps.com</p>
+                <h1 class="navigation__tell">8 800 890 8900</h1>
+            </div>
+            <div class="lang">
+                <div class="lang__ur lang__ur--checked">RU</div>
+                <div class="lang__ur">EN</div>
+                <div class="lang__ur">CH</div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
