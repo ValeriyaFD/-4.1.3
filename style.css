@@ -46,12 +46,12 @@ background: #fff;
     border-radius: 50%;
 }
 .header-button--burger{
-    background-image: url("img/burger.svg");
+    background-image: url("./img/burger.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .header-button--search{
-    background-image: url("img/search.svg");
+    background-image: url("./img/search.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -114,17 +114,17 @@ img{
     border-radius: 50%;
 }
 .main-button--call{
-    background-image: url("img/call.svg");
+    background-image: url("./img/call.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .main-button--chat{
-    background-image: url("img/chat.svg");
+    background-image: url("./img/chat.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 .main-button--profile{
-    background-image: url("img/profile.svg");
+    background-image: url("./img/profile.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
